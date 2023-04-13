@@ -127,11 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="Orange.cpp" />
+    <ClCompile Include="Ingredient.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mixer.cpp" />
+    <ClCompile Include="PineApple.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="Orange.h" />
+    <ClInclude Include="Ingredient.h" />
     <ClInclude Include="Mixer.h" />
+    <ClInclude Include="PineApple.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

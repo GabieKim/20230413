@@ -8,6 +8,8 @@ FIngredient::~FIngredient()
 {
 }
 
-void FIngredient::MakeJuice()
+void FIngredient::NameRender()
 {
+	
 }
+
